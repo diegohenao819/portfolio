@@ -47,7 +47,8 @@ export const Projects = () => {
           <p>
             Proyecto realizado en equipo, en el cual se utilizo React, Redux,
             Node, Express,Figma, Heroku, Postman, entre otras herramientas. AWS
-            werwerwe rwwerwerewr wre wer wer wer were -----
+            werwerwe rwwerwerewr wre wer wer wer were ----- rwerwer ---
+            werwere--- esta funcionando en portfolio
           </p>
           <button>Ver Proyecto</button>
         </div>
