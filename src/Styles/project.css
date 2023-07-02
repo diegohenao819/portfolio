@@ -1,0 +1,81 @@
+
+
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 15px; 
+}
+
+.caja{
+   width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+   
+    border-radius: 10px;
+     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.caja h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.caja :nth-child(3){
+    font-weight: bold;
+}
+
+.caja .parrafos{
+    background-color: #0099ff3e;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja p{
+    text-align: center;
+    font-size: 15px;
+    
+    padding: 10px;
+}
+
+.caja img{
+    height: 80%;
+    width: 80%;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+
+.caja a{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.caja button{
+    width: 90%;
+    height: 50px;
+    background-color: #1E90FF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}

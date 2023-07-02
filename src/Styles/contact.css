@@ -1,0 +1,107 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  flex-wrap: wrap;
+  gap: 20px;
+ 
+}
+
+.contact .container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+.title {
+  padding-bottom: 20px;
+}
+
+.subtitle {
+  padding-bottom: 20px;
+}
+
+.contact .formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .formulario input {
+  margin: 20px;
+  width: 40%;
+}
+
+.contact .formulario button {
+  margin: 20px;
+  width: 100%;
+  background-color: #341b38;
+}
+
+.contact .arrow{
+  color: #341b38;
+  font-size: 80px;
+  animation-name: example;
+  transition: all 0.5s ease-in-out;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+
+
+
+/* LADO DERECHO DE TARJETA DE CONTACTO */
+
+.contact .contact2 {
+  background-color: #341b38;
+  height: 40vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  position: relative;
+  margin-left: 20px;
+}
+
+.contact .contact2::before {
+  content: "";
+  background-color: yellow;
+  width: 1%;
+  height: 1%;
+  left: -20px;
+
+  top: -20px;
+  position: absolute;
+
+  padding: 30px;
+}
+
+.contact .contact2 h2 {
+  padding-bottom: 20px;
+}
+
+.contact .contact2 ul li {
+  padding-bottom: 10px;
+  list-style-type: none;
+ 
+}
+.contact .contact2 ul li a {
+  color: white;
+  text-decoration: none;
+ 
+}
+
+.contact .contact2 ul li svg {
+  padding-right: 10px;
+}

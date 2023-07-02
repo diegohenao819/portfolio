@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  letter-spacing: 0.2rem;
+}
+
+.typo {
+  display: flex;
+
+  flex-grow: 1;
+  letter-spacing: 2rem;
+}
+
+.navbar h2{
+  letter-spacing: 5px;
+  font-size: 20px;
+
+}
+
+.navbar .appbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  letter-spacing: 0.2rem;
+}
+
+.navbar .appbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.navbar .appbar ul li {
+  margin: 5px;
+}
+
+.navbar .coffee {
+  font-size: 40px;
+}
+
+.noActive {
+  background-color: white;
+  color: #341b38;
+  font-weight: bold;
+
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #e8ba7c;
+  font-weight: bold;
+
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
