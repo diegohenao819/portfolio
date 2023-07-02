@@ -48,6 +48,7 @@ function NavBar() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/portfolio/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<ConctactMe />} />
         <Route path="/project" element={<Projects />} />
