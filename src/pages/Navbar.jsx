@@ -1,7 +1,5 @@
 import AppBar from "@mui/material/AppBar";
 
-import Typography from "@mui/material/Typography";
-
 import CoffeeIcon from "@mui/icons-material/Coffee";
 import ConctactMe from "./ContactMe";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
@@ -48,10 +46,10 @@ function NavBar() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/portfolio/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/contact" element={<ConctactMe />} />
-        <Route path="/project" element={<Projects />} />
+        <Route path="portfolio/" element={<Home />} />
+        <Route path="home" element={<Home />} />
+        <Route path="contact" element={<ConctactMe />} />
+        <Route path="project" element={<Projects />} />
       </Routes>
     </BrowserRouter>
   );

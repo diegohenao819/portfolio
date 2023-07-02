@@ -25,15 +25,18 @@ export const Projects = () => {
       </div>
 
       <div className="caja caja1">
-        <img src={emmi} alt="Emmi" />
+        <img src={clickProf} alt="clickProf" />
         <div className="parrafos">
-          <h3>INSTITUTO EMMI PIKLER</h3>
-          <p>Projecto para un jardín infantil.</p>
+          <h3>CLICK-PROF</h3>
+          <p>Projecto de examenes en segunda lengua.</p>
           <p>
             Tecnologías: React, Node, Express, CSS, HTML, Git, GitHub,
             Trello,Heroku, Postman, entre otras herramientas.
           </p>
-          <a href="https://emmi-pikler.netlify.app/" target="blank">
+          <a
+            href="https://master.d1ie4jvzhxyf59.amplifyapp.com/"
+            target="blank"
+          >
             <button>Ver Proyecto</button>
           </a>
         </div>
@@ -43,15 +46,17 @@ export const Projects = () => {
         <img src={clickProf} alt="clickProf" />
         <div className="parrafos">
           <h3>CLICK-PROF</h3>
-          <p>Projecto para un jardín infantil.</p>
+          <p>Projecto de examenes en segunda lengua.</p>
           <p>
-            Proyecto realizado en equipo, en el cual se utilizo React, Redux,
-            Node, Express,Figma, Heroku, Postman, entre otras herramientas. AWS
-            werwerwe rwwerwerewr wre wer wer wer were ----- rwerwer ---
-            werwere--- esta funcionando en portfolio... estamos publicos en una
-            pagina!!
+            Tecnologías: React, Node, Express, CSS, HTML, Git, GitHub,
+            Trello,Heroku, Postman, entre otras herramientas.
           </p>
-          <button>Ver Proyecto</button>
+          <a
+            href="https://master.d1ie4jvzhxyf59.amplifyapp.com/"
+            target="blank"
+          >
+            <button>Ver Proyecto</button>
+          </a>
         </div>
       </div>
     </div>
