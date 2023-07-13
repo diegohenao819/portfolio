@@ -2,10 +2,23 @@ import React from "react";
 import "../Styles/project.css";
 import clickProf from "../assets/clickProf.png";
 import emmi from "../assets/emmi.png";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { useNavigate } from "react-router-dom";
 
 export const Projects = () => {
+  const navegar = useNavigate();
+  const navegarProject = () => {
+    navegar("/home");
+  };
+  const navegarHome = () => {
+    navegar("/contact");
+  };
   return (
     <div className="project">
+      <div className="cajaArrow">
+        <ArrowBackIosIcon onClick={navegarHome} className="arrow" />
+      </div>
       <div className="caja caja1">
         <img src={clickProf} alt="clickProf" />
         <div className="parrafos">
@@ -58,7 +71,12 @@ export const Projects = () => {
             <button>Ver Proyecto</button>
           </a>
         </div>
+
       </div>
+
+      <div className="cajaArrow">
+        <ArrowForwardIosIcon onClick={navegarProject} className="arrow" />
+  </div>
     </div>
   );
 };

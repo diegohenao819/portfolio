@@ -81,9 +81,13 @@ const ContactMe = () => {
             required
           />
           <TextField
+           multiline
+           rows={3}
             name="message"
+            type="textarea"
             label="Message"
             variant="standard"
+            className="message"
             required
           />
           <Button type="submit" variant="contained" className="button">

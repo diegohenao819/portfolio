@@ -126,18 +126,18 @@
     display: flex;
   }
 
-  .Home .right  {
-
+  .Home .right {
     justify-content: center;
     align-items: center;
     margin-left: 20px;
   }
 
-  .Home .right img{
-    height: 30px;
-    width: 300px;
+  .Home .right :nth-child(1){
+    display: none;
   }
-
+  .Home .right :nth-child(2) {
+    display: none;
+  }
 }
 
 @keyframes pageTransition {
